@@ -2,7 +2,7 @@
 
 * NodeJS v4.0+
 * NPM v3.10+
-* macOS or Linux (not tested on Windows)
+* MacOS or Linux (not tested on Windows)
 
 ## Quick start
 
@@ -14,13 +14,13 @@ The main git branch is **2X**
 
 We use rebasing in order to avoid merge commits.
 
-#### Hooks
+### Hooks
 
   We have pre-commit/push hooks in the `hooks` directory to help enforce our linting rules and tests. Developers are highly encouraged to use them.
 
 ### Configure your dev envirnoment
 
-We use a shell script to run the app so we can define needed environment variables. By convention we call it `start.sh`. This file is already in our `.gitignore`.
+We use a shell script to run the app so we can define needed environment variables. By convention we call it `start.sh`. This file is already in our [`.gitignore`](reddit-mobile/.gitignore).
 
 `cp start.sh.example start.sh`
 `chmod u+wx start.sh`
